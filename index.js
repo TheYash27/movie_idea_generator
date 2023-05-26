@@ -1,4 +1,4 @@
-import { process } from '/env'
+require("dotenv").config({ path: ".env" });
 import { Configuration, OpenAIApi } from 'openai'
 
 const setupInputContainer = document.getElementById('setup-input-container')
