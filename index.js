@@ -1,5 +1,5 @@
-require("dotenv").config({ path: ".env" });
 import { Configuration, OpenAIApi } from 'openai'
+import { process } from '/env'
 
 const setupInputContainer = document.getElementById('setup-input-container')
 const movieBossText = document.getElementById('movie-boss-text')
